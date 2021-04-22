@@ -4,7 +4,7 @@ if(a>100 && a<999){
    c=a.substring(0, 1) ** 3;
     b=a.substring(2, 1) ** 3;
     d=a.substring(3, 2) ** 3;
-    m=b+c+d
+    m=b+c+d;
     if(m == a){
         alert("Narcissistic Number");
     }
